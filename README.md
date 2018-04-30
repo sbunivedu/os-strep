@@ -1,4 +1,6 @@
 # The Strep Program
+A string find-and-replace program<sup>[1](#myfootnote1)</sup>.
+
 ## Introduction
 The goal of this lab is for you to get familiar with system level programming
 in C using low level interfaces and buffer manipulation. You will write a
@@ -166,8 +168,6 @@ Section	Description
 7		Miscellanea
 8		System administration commands and daemons
 
-For example, you can type “man 3 printf” to search for printf a library function in section 3 of the man pages. Simply typing “man printf” will show you printf as a shell command (note the section number on the upper left corner of the man page).
-
 PRINTF(3)
 NAME
        printf,   fprintf,  sprintf - formatted output conversion
@@ -265,10 +265,10 @@ SYNOPSIS
 
 DESCRIPTION
        fgets() reads in at most one less than size characters from stream  and
-       stores  them  into  the buffer pointed to by s.  <mark>Reading stops after an
-       EOF or a newline</mark>.  If a newline is read, it is stored into the  buffer.
-       A  terminating  null  byte ('\0') is stored after the last character in
-       the buffer.
+       stores  them  into  the buffer pointed to by s.  <mark>Reading stops
+       after an EOF or a newline</mark>.  If a newline is read, it is stored
+       into the  buffer. A  terminating  null  byte ('\0') is stored after the
+       last character in the buffer.
 
 RETURN VALUE
        fgets() return s on success, and NULL on error or when end
@@ -297,4 +297,5 @@ RETURN VALUE
        The strcmp() and strncmp() functions return an integer less than, equal
        to, or greater than zero if s1 (or the first n bytes thereof) is found,
        respectively, to be less than, to match, or be greater than s2.
-```</PRE>
+</PRE>
+<a name="myfootnote1">1</a>: Modified from an assignment by by Marc Corliss
